@@ -3,7 +3,7 @@ import './style.css';
 import config from './config.js';
 import { useState,useEffect } from 'react';
 
-const StudentManager = () => {
+const StudentManager = () => { 
   const [students, setStudents] = useState([]);
   const [student, setStudent] = useState({
     id: '',
@@ -129,7 +129,7 @@ const StudentManager = () => {
 )}
 
 
-      <h2>Student Management</h2>
+      <h2>Student Management  Happy independence day</h2>
 
       <div>
         <h3>{editMode ? 'Edit Student' : 'Add Student'}</h3>
